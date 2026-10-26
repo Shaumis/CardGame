@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Scene fill="#3f593e" xmlns="http://javafx.com/javafx/25"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="controllers.TheGameControl">
+	<AnchorPane prefHeight="705.0" prefWidth="993.0"
+		style="-fx-background-color: DarkGreen;">
+		<children>
+			<HBox layoutY="378.0" prefHeight="156.0" prefWidth="1076.0">
+				<children>
+					<ImageView fx:id="Card1" fitHeight="156.0"
+						fitWidth="119.0" pickOnBounds="true" preserveRatio="true" />
+					<ImageView fx:id="Card2" fitHeight="156.0"
+						fitWidth="119.0" pickOnBounds="true" preserveRatio="true" />
+					<ImageView fx:id="Card3" fitHeight="156.0"
+						fitWidth="119.0" pickOnBounds="true" preserveRatio="true" />
+					<ImageView fx:id="Card4" fitHeight="156.0"
+						fitWidth="119.0" pickOnBounds="true" preserveRatio="true" />
+					<ImageView fx:id="Card5" fitHeight="156.0"
+						fitWidth="119.0" pickOnBounds="true" preserveRatio="true" />
+					<ImageView fx:id="Card6" fitHeight="156.0"
+						fitWidth="119.0" pickOnBounds="true" preserveRatio="true" />
+					<ImageView fx:id="Card7" fitHeight="156.0"
+						fitWidth="119.0" pickOnBounds="true" preserveRatio="true" />
+					<ImageView fx:id="Card8" fitHeight="156.0"
+						fitWidth="119.0" pickOnBounds="true" preserveRatio="true" />
+					<ImageView fx:id="Card9" fitHeight="156.0"
+						fitWidth="119.0" pickOnBounds="true" preserveRatio="true" />
+				</children>
+			</HBox>
+			<HBox layoutX="-1.0" layoutY="534.0" prefHeight="156.0"
+				prefWidth="1071.0">
+				<children>
+					<ImageView fx:id="Card10" fitHeight="156.0"
+						fitWidth="119.0" pickOnBounds="true" preserveRatio="true" />
+					<ImageView fx:id="Card11" fitHeight="156.0"
+						fitWidth="119.0" pickOnBounds="true" preserveRatio="true" />
+					<ImageView fx:id="Card12" fitHeight="156.0"
+						fitWidth="119.0" pickOnBounds="true" preserveRatio="true" />
+					<ImageView fx:id="Card13" fitHeight="156.0"
+						fitWidth="119.0" pickOnBounds="true" preserveRatio="true" />
+					<ImageView fx:id="Card14" fitHeight="156.0"
+						fitWidth="119.0" pickOnBounds="true" preserveRatio="true" />
+					<ImageView fx:id="Card15" fitHeight="156.0"
+						fitWidth="119.0" pickOnBounds="true" preserveRatio="true" />
+					<ImageView fx:id="Card16" fitHeight="156.0"
+						fitWidth="119.0" pickOnBounds="true" preserveRatio="true" />
+					<ImageView fx:id="Card17" fitHeight="156.0"
+						fitWidth="119.0" pickOnBounds="true" preserveRatio="true" />
+					<ImageView fx:id="Card18" fitHeight="156.0"
+						fitWidth="119.0" pickOnBounds="true" preserveRatio="true" />
+				</children>
+			</HBox>
+			<VBox layoutX="-1.0" layoutY="690.0" prefHeight="102.0"
+				prefWidth="509.0">
+				<children>
+					<Label fx:id="GameName" alignment="CENTER" prefHeight="102.0"
+						prefWidth="300.0" text="Label" textFill="WHITE">
+						<font>
+							<Font size="15.0" />
+						</font>
+					</Label>
+				</children>
+			</VBox>
+			<VBox layoutX="523.0" layoutY="690.0" prefHeight="103.0"
+				prefWidth="552.0">
+				<children>
+					<Button fx:id="buttonEnd" mnemonicParsing="false"
+						prefHeight="103.0" prefWidth="550.0"
+						style="-fx-background-color: Green; -fx-border-color: Black;"
+						text="Beigt Gājienu" textFill="WHITE">
+						<font>
+							<Font size="15.0" />
+						</font>
+					</Button>
+				</children>
+			</VBox>
+			<VBox layoutX="14.0" layoutY="14.0" prefHeight="338.0"
+				prefWidth="581.0">
+				<children>
+					<HBox prefHeight="176.0" prefWidth="581.0">
+						<children>
+							<ImageView fx:id="CardPlace1" fitHeight="173.0"
+								fitWidth="105.0" pickOnBounds="true" preserveRatio="true" />
+							<ImageView fx:id="CardPlace2" fitHeight="173.0"
+								fitWidth="105.0" pickOnBounds="true" preserveRatio="true" />
+							<ImageView fx:id="CardPlace3" fitHeight="173.0"
+								fitWidth="105.0" pickOnBounds="true" preserveRatio="true" />
+							<ImageView fx:id="CardPlace4" fitHeight="173.0"
+								fitWidth="105.0" pickOnBounds="true" preserveRatio="true" />
+							<ImageView fx:id="CardPlace5" fitHeight="173.0"
+								fitWidth="105.0" pickOnBounds="true" preserveRatio="true" />
+							<ImageView fx:id="CardPlace6" fitHeight="173.0"
+								fitWidth="105.0" pickOnBounds="true" preserveRatio="true" />
+						</children>
+					</HBox>
+					<HBox prefHeight="176.0" prefWidth="581.0">
+						<children>
+							<ImageView fx:id="CardHit1" fitHeight="173.0"
+								fitWidth="105.0" pickOnBounds="true" preserveRatio="true" />
+							<ImageView fx:id="CardHit2" fitHeight="173.0"
+								fitWidth="105.0" pickOnBounds="true" preserveRatio="true" />
+							<ImageView fx:id="CardHit3" fitHeight="173.0"
+								fitWidth="105.0" pickOnBounds="true" preserveRatio="true" />
+							<ImageView fx:id="CardHit4" fitHeight="173.0"
+								fitWidth="105.0" pickOnBounds="true" preserveRatio="true" />
+							<ImageView fx:id="CardHit5" fitHeight="173.0"
+								fitWidth="105.0" pickOnBounds="true" preserveRatio="true"
+								style="-fx-blend-mode: RED;" />
+							<ImageView fx:id="CardHit6" fitHeight="173.0"
+								fitWidth="105.0" pickOnBounds="true" preserveRatio="true" />
+						</children>
+					</HBox>
+				</children>
+			</VBox>
+			<VBox layoutX="659.0" prefHeight="252.0" prefWidth="402.0">
+				<children>
+					<Label fx:id="CardRemain" alignment="CENTER"
+						prefHeight="98.0" prefWidth="160.0" text="Label"
+						textAlignment="CENTER" textFill="WHITE" translateX="245.0"
+						translateY="280.0">
+						<font>
+							<Font size="15.0" />
+						</font>
+					</Label>
+					<ImageView fx:id="CardOnDeck1" fitHeight="173.0"
+						fitWidth="105.0" pickOnBounds="true" preserveRatio="true"
+						rotate="-25.0" translateX="165.0" translateY="90.0">
+						<image>
+							<Image url="@222662_playing-card-png.png" />
+						</image>
+					</ImageView>
+					<ImageView fx:id="CardOnDeck2" fitHeight="173.0"
+						fitWidth="105.0" pickOnBounds="true" preserveRatio="true"
+						rotate="-25.0" translateX="175.0" translateY="-70.0">
+						<image>
+							<Image url="@222662_playing-card-png.png" />
+						</image>
+					</ImageView>
+					<ImageView fx:id="CardOnDeck3" fitHeight="173.0"
+						fitWidth="105.0" layoutX="10.0" layoutY="256.0"
+						pickOnBounds="true" preserveRatio="true" rotate="-25.0"
+						translateX="185.0" translateY="-225.0">
+						<image>
+							<Image url="@222662_playing-card-png.png" />
+						</image>
+					</ImageView>
+					<ImageView fx:id="TrumpCard" fitHeight="173.0"
+						fitWidth="105.0" pickOnBounds="true" preserveRatio="true"
+						translateX="200.0" translateY="-350.0" />
+				</children>
+			</VBox>
+		</children>
+	</AnchorPane>
+</Scene>
